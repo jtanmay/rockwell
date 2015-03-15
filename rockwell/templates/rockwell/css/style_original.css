@@ -1,0 +1,250 @@
+
+
+body {
+font-family:'Nunito',sans-serif;
+/*width:1350px;
+height:680px;*/
+color:white;
+background:#ffff99 url('../images/bkg_ptn.jpg') repeat;
+
+}
+
+#header{
+width:100%;
+height:20px;
+background:red top right;
+color:white;
+margin:0px;
+padding:0px;
+display:block;
+
+}
+
+#rcol{
+width:15%;
+height:90%;
+margin:auto;
+padding:0;
+background:#ffff11 top right;
+position:relative;
+}
+
+#rcol img{
+    display: block;
+    margin-left: 100%;
+    position:relative;
+	
+}
+
+
+p{
+font-size:1em;
+letter-spacing:-0.3px; 
+text-align:center;
+}
+#rcol p{
+color:red;
+}
+
+#ad{
+	font-size:0.9em;
+	font-weight:bold;
+	bottom:45px;
+	position:fixed;
+	padding:0 5px 0 3px;
+	
+	
+}
+#lcol{
+width:85%;
+height:90%;
+margin:auto;
+padding:0;
+position:relative;
+}
+#nav{
+color:#fff;
+
+}
+#nav ul{
+	margin:20px 0 0 0 ;
+	list-style:none;
+	float:right;
+}
+
+
+#nav ul li{
+	float:left;
+	margin:20px;
+	padding:5px;
+	font-size:1.10em;
+	
+}
+
+#content{
+	width:80%;
+	background:rgba(0,0,0, 0.5);
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:5px;
+}
+#content p{text-align:left; line-height:100%;}
+#content h2{font-size:1.4em; line-height:90%;}
+#head_img img{
+	border:#fff 5px solid;
+	width:100%;
+	height:40%;
+	
+}
+#footer{
+font-size:0.9em;
+width:100%;
+height:20px;
+background:red bottom right;
+color:white;
+margin:0px;
+padding:0px;
+}
+
+
+/*Media query for max width 780px*/
+@media screen and (max-width:780px){
+body{overflow:hidden;}
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {width:100%; }
+#rcol{width:100%; height:20%;}
+#rcol img{height:110%;  display: block;  margin-left: auto;  margin-right: auto; }
+#ad{display:none;}
+#lcol{height:75%;}
+#nav ul {width:100%; float:left; 	margin-top:10px;}
+#nav ul li{margin:0 12px 12px 12px;}
+#nav ul li .about{width:20%;}
+#nav ul li .gallery{width:20%;}
+#nav ul li .service{width:18%;}
+#nav ul li .feedback{width:19%;}
+#nav ul li .contact{width:25%;}
+#head_img img{display:none;}
+#content{ width:100%; margin-top:20%; margin-left:35px;}
+#footer{margin-top:-10px;}		 
+}
+
+
+/* Media Query  iPhone iPad Samsung Galaxy ---http://stephen.io/mediaqueries/ 
+/* iPAD */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) and (orientation:landscap) {
+ 
+ body{overflow:hidden;}
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {width:100%; }
+
+#rcol{width:100%; height:20%;}
+#rcol img{height:110%;  display: block;  margin-left: auto;  margin-right: auto; }
+#ad{display:none;}
+#lcol{height:75%;}
+#nav ul {width:100%; float:left; 	margin-top:10px;}
+#nav ul li{margin:0 12px 12px 12px;}
+#nav ul li .about{width:20%;}
+#nav ul li .gallery{width:20%;}
+#nav ul li .service{width:18%;}
+#nav ul li .feedback{width:19%;}
+#nav ul li .contact{width:25%;}
+#head_img img{display:none;}
+#content{ width:100%; margin-top:20%; margin-left:35px;}
+#footer{margin-top:-10px;}	
+ 
+ }
+
+
+/*iPhone orientation landscap for #content management
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) and (orientation : landscape) { 
+body{overflow:hidden;}
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {width:100%; }
+
+#rcol{width:100%; height:20%;}
+#rcol img{height:110%;  display: block;  margin-left: auto;  margin-right: auto; }
+#ad{display:none;}
+#lcol{height:75%;}
+#nav ul {width:100%; float:left; 	margin-top:5px;}
+#nav ul li{margin:0 2px 6px 2px; font-size:0.8em;	}
+#nav ul li .about{width:15%;}
+#nav ul li .gallery{width:15%;}
+#nav ul li .service{width:14%;}
+#nav ul li .feedback{width:15%;}
+#nav ul li .contact{width:100%; text-align:center;}
+#head_img img{display:none;}
+#content{ width:100%; margin-top:10%; margin-left:35px; font-size:0.8em;}
+#footer{margin-top:-10px;}	
+}*/
+
+
+/*iPhone portrait mode
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) and (orientation : portrait) { 
+body{overflow:hidden;}
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {width:100%; }
+
+#rcol{width:100%; height:20%;}
+#rcol img{height:110%;  display: block;  margin-left: auto;  margin-right: auto; }
+#ad{display:none;}
+#lcol{height:75%;}
+#nav ul {width:100%; float:left; 	margin-top:5px;}
+#nav ul li{margin:0 2px 6px 2px; font-size:0.8em;	}
+#nav ul li .about{width:15%;}
+#nav ul li .gallery{width:15%;}
+#nav ul li .service{width:14%;}
+#nav ul li .feedback{width:15%;}
+#nav ul li .contact{width:100%; text-align:center;}
+#head_img img{display:none;}
+#content{ width:100%; margin-top:30%; margin-left:35px; font-size:0.8em;}
+#footer{margin-top:-10px;}	
+
+}*/

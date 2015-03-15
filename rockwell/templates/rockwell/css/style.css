@@ -1,0 +1,493 @@
+body {
+font-size:1.14em;
+font-family:'Nunito',sans-serif;
+color:white;
+line-height:1.5em;
+display:block;
+text-align:left;
+margin:0 auto;
+clear:both;
+background:#30302c url('../images/bkg_ptn.jpg') repeat;
+/*overflow:auto;*/
+}
+
+#container{height:100%; width:100%; margin:0; padding:0; }
+
+#header{
+width:100%;
+height:20px;
+background:red top right;
+color:white;
+margin:0px;
+padding:0px;
+display:block;
+z-index:4; 
+
+}
+
+
+
+#rcol{
+width:15%;
+min-height:100%;
+float:left;
+margin:auto;
+padding:0;
+background:#ffff11 top right;
+position:fixed;
+z-index:-1;
+}
+
+#logo{
+	height:30%;
+	width:65%;
+	margin-top:10%;
+	margin-left:15%;
+	position:absolute;
+}
+
+#logo img{
+	height:100%;
+	width:100%;
+    display: block;
+    position:relative;
+	
+}
+
+
+p{
+font-size:1em;
+letter-spacing:-0.3px; 
+text-align:center;
+}
+#rcol p{
+color:red;
+}
+
+#ad{
+	width:90%;
+	margin-left:1%;
+	font-size:1em;
+	bottom:10%;
+	position:absolute;
+	padding:0 5px 0 3px;
+    text-shadow:0px 1px 2px #3F2F2B;	
+	
+}
+#lcol{
+width:85%;
+min-height:90%;
+float:right;
+padding:0;
+position:relative;
+/*z-index:-3;*/
+}
+
+#nav{
+color: #fff;
+height: 60px;
+/*margin: 2% 0 2% 20%;*/
+width: 82%;
+padding-top: 1px;
+margin-left: 10%;
+margin-right: auto;
+display: block;
+}
+#nav ul{
+	margin:5px -21px 0 0 ;
+	list-style:none;
+	float:right;
+	width:relative;
+}
+
+
+#nav ul li{
+	float:left;
+	margin:5px 20px;
+	padding:5px;
+	font-size:1.10em;
+}
+
+#nav ul li a{
+	color:#ffffff; 
+	text-decoration:none;
+	display:inline-block; 
+}
+
+#nav ul li a:link, a:visited{
+
+}
+
+#nav ul li a:hover{
+	text-shadow:none;
+	color:#ffff11;
+}
+
+ #nav ul li  a:hover, a:active{color:#ffff11; border-bottom-style:solid; border-bottom-width:thin; display:block;}
+ #nav ul li a.current,a.active{
+	
+	text-color:#ffff11;
+
+}
+
+
+.header_image {
+	width:83%;
+	height:40%;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top:1%;
+	margin-bottom:3.7%;
+	display: block;
+	/*display:none;*/
+}
+.header_image  img{
+	border:#fff 6px solid;
+	height:95%;
+	width:97%; /* margin-left:7.3%;*/
+}
+
+#content{
+	width:80%;
+	/*height:100%;
+	overflow:auto;*/
+	background:rgba(0,0,0, 0.5);
+	margin-top:3%;
+	margin-left:10%;
+	margin-right:auto;
+	display:block;
+	padding:1%;
+	clear:both;
+	z-index:-10;
+}
+#content p{
+	text-align:left;
+	line-height:150%;
+	margin-left:5.5%;
+}
+#content h2{
+	width:34%;
+	margin-left:5.5%;
+	font-size:1.4em;
+	line-height:90%;
+}
+
+#content h3{
+	-webkit-margin-after:0.3em;
+	-moz-margin-after:0.3em;
+	margin-left:0.5%;
+	}
+#content img.displayed {
+	width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content a{color:#ffff11;}
+
+#content .cdata{
+	float:right;
+	width:60%;
+	padding-left:2%;
+}
+#content .cdata img{
+	height:100%;
+	width:100%;
+    display: block;
+    position:relative;
+}
+#cimg{
+	float:left;
+	width:20%;
+	height:20%;
+	margin-left:14%;
+	margin-top:3%; 
+	padding-right:3%;
+	border-right:1px solid red;
+}
+#cimg img{
+	height:100%;
+	width:100%;
+    display: block;
+    position:relative;
+}
+.span.tab {
+display: inline-block;
+float:left;
+}
+#simg{
+	float:left; 
+	width:20%; 
+	height:20%; 
+	margin-left:15%; 
+	margin-top:10%;
+}
+
+#simg img{
+	height:100%;
+	width:100%;
+    display: block;
+    position:relative;
+	
+}
+
+#content .sdata{
+	float:right; 
+	width:50%; 
+	margin-top: -4%;
+	border-left:1px solid red;
+	padding: 2%; 
+}
+
+#social{float:left; width:15%; height:5%; /*margin-left:15%; margin-top:18%;*/}	
+#social img{	height:100%;
+	width:100%;
+    display: block;
+    position:relative;}
+
+#feedcon{
+	width:100%;
+	/*height:90%;*/
+
+	
+}
+#feed .feedback{
+	width:80%;
+	background:rgba(0,0,0, 0.5);
+	
+	font-size:1em;
+	margin-top:2%;
+	margin-left:10%; /*25%*/
+	margin-right:auto;
+	display:block;
+	padding:1%;
+	clear:both;
+
+}
+#feed p.feedback span.hat{
+	font-size: 1.5em;
+	color:#ffff11;
+}
+#feed span.name{
+	text-align:right; 
+	margin-left:60%; 
+	color:#ffff11; 
+	font-size:0.7em;
+}
+
+/* GALLERY */
+.rg-detail-creation-date, .rg-detail-item-title,.rg-detail-file-main .rg-detail-gallery-name,.rg-detail-item-views-icons .rg-detail-item-tags-count ,.rg-detail-file-info{display:none!important ;}
+.rg-detail-img{width:100% !important;}
+.rg-detail-pagination a:link,a:visited,  a:hover, a:active{color:yellow; text-decoration:none;} 
+.rg-detail-item-file-imageurl{display:none;}
+
+
+#footer{
+font-size:0.9em;
+width:100%;
+height:20px;
+background:red bottom right;
+color:white;
+margin:2.7% 0 0 0;
+padding:0px;
+z-index:3;
+overflow:hidden;
+}
+#footer cprt{
+	margin-left:0.5%;
+	font-size:0.8em;
+}
+#footer social{
+	font-size:1em;
+	font-weight:bold;
+	color:#fff;
+	margin-left:70%;
+	display:inline;
+	display:none;
+}
+
+/*******************************************************/
+/************MEDIA QUERY FOR SMART PHONES***************/
+/*******************************************************/
+@media screen and (min-width:411px) and (max-width:990px){
+
+#body{overflow-x: hidden;}
+#header{min-height: 1%;}
+#rcol{
+	width:22%;
+}
+
+#logo{
+	height:23%;
+	width:67%;
+	margin-left:14%; 
+	margin-top:24%;
+}
+
+#ad{
+	width:95%;
+	min-height:35%;
+	margin-left:4%;
+	display:block;
+	font-size:0.7em;
+	position:absolute;
+	padding:0 0 0 0;
+    text-shadow:0px 0px 0px #3F2F2B;	
+	margin-top:3%;
+}
+
+#lcol{
+	font-size:0.70em;
+	margin-top:0%;
+	width:78%;
+	float:right;
+}
+
+#nav{
+	width:98%;
+	min-height:10%;
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0.5%;
+
+
+}
+	
+#nav ul{
+	
+	width:100%;
+	font-size:1em;
+	margin:0%;
+	margin-left: auto; 
+	margin-right: auto; 	
+	padding:0px;
+    text-align: center;
+	
+}
+
+#nav ul li{ 
+	width:15%;
+	margin:0% 2% 0% 0%; 
+	display:inline-block;
+}
+
+#nav ul li a{display: block;}
+/*
+#nav ul li.item-233 {width: 100%; margin-top:1%;}
+#nav ul li.item-233 a{width:22%; margin-left: 35%;}
+*/
+.header_image  {display:none;}
+#cimg{
+	float:left;
+	width:25%;
+	height:20%;
+	margin-left:1%; 
+	margin-top:5%;
+}
+#content .cdata{
+	
+	width:68%;
+	
+}
+#content{
+	margin:1.5% auto; 
+	padding:2%;
+	font-size:1.1em; 
+	width:80%; 
+	display:block; 
+	clear:both;
+}
+
+}
+/*******************************************************************************/
+
+/*******************************************************************************/
+/******************************MEDIA QUERY**************************************/
+/*******************************************************************************/
+
+@media screen and (max-width:410px){
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,
+.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,
+.grid_11,.grid_12 {width:100%;}
+
+#body{overflow-x: hidden;}
+
+#rcol{
+	width:100%;
+	min-height:25%;
+	margin-top:0%;
+	position:absolute;
+	
+}
+#logo{
+	height:80%;
+	width:18%;
+	margin-left:4%; 
+	margin-top:5%;
+	
+}
+#ad{
+	width:54%;
+	min-height:85%;
+	margin-left:40%;
+	display:block;
+	font-size:0.8em;
+	position:absolute;
+	padding:0 2px 0 3px;
+    text-shadow:0px 0px 0px #3F2F2B;	
+	
+}
+
+#lcol{
+	font-size:0.72em;
+	margin-top:31%;
+	width:100%;
+
+}
+#nav{
+	width:81%;
+	min-height:20%;
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0.5%;
+}
+	
+#nav ul{
+	width:100%;
+	font-size:1em;
+	margin:3% 1% 0% 1%;
+}
+
+#nav ul li{margin:3px; display:inline-block;}
+#nav ul li .about{width:15%;}
+#nav ul li .gallery{width:15%;}
+#nav ul li .service{width:15%;}
+#nav ul li .feedback{width:15%;}
+#nav ul li.item-233 {width: 100%; margin-top:1%;}
+#nav ul li.item-233 a{width:25%; margin-left: 35%;}
+.header_image  {display:none;}
+#cimg{
+	float:left;
+	width:25%;
+	height:20%;
+	margin-left:1%; 
+	margin-top:5%;
+}
+#content .cdata{
+	
+	width:68%;
+	
+}
+#content{
+	margin:1.5% auto; 
+	padding:2%;
+	font-size:1.1em; 
+	width:80%; 
+	display:block; 
+	clear:both;
+}
+
+

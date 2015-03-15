@@ -1,0 +1,9 @@
+{
+    "primary": {
+        "host":"www.akanxha.com",
+        "username":"akanxha1982",
+        "password":null,
+        "path":"/rockwellsvn/",
+        "upload_on_save":true
+    }
+}
